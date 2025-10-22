@@ -6,7 +6,7 @@
   .page-bg {
   position: fixed;
   inset: 0; /* top:0; right:0; bottom:0; left:0; */
-  background-image: url("imagines/hamburguesas\ fondo.jpg");
+  background-image: url("imagenes/hamburguesas\ fondops.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 header {
   position: relative;
   z-index: 50;
-  background: rgba(235,8,8,0.95);
+  background: rgba(234, 9, 9, 0.95);
   color: #ffffff;
   padding: 12px 24px;
   display:flex;
@@ -106,8 +106,8 @@ header h1 { font-family: "Georgia", "Times New Roman", serif; /* elegante y legi
   font-size: 2rem;
   text-align: center;
   color: #ffffff; /* dorado */
-  text-shadow: 3px 3px 0px #000,   /* sombra marcada hacia abajo */
-               -2px -2px 0px #000; /* y hacia arriba para darle borde */
+  text-shadow: 3px 3px 0px #ff0000,   /* sombra marcada hacia abajo */
+               -2px -2px 0px #fc0000; /* y hacia arriba para darle borde */
   letter-spacing: 2px;
 }
  
@@ -156,9 +156,9 @@ nav ul li a:hover {color: #ffd166;}
 .hero h2 {
   font-family: "Georgia", serif;
   font-style: italic;
-  font-weight: 700;
-  font-size: 50px;
-  color: #ff0000;
+  font-weight: 990;
+  font-size: 70px;
+  color: #ffffff;
   text-shadow: 3px 3px 0px #000,
                -2px -2px 0px #000,
                2px 2px 0px #000,
@@ -167,14 +167,14 @@ nav ul li a:hover {color: #ffd166;}
   margin-bottom: 20px;
 }
 .hero a {
-  background: #ffd166;
-  color: #333;
+  background: #dadada;
+  color: #000000;
   padding: 15px 30px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
 }
-.hero a:hover {background: #ff9e00; color: white;}
+.hero a:hover {background: #f8f8f8; color: white;}
 
 /* Secciones generales */
 section {padding: 50px 20px; text-align: center;}
@@ -189,11 +189,11 @@ h2 {font-size: 36px; margin-bottom: 30px; color: #ff3c3c;}
   font-style: italic;
   font-weight: 700;
   font-size: 36px;
-  color: #ff0000;
-  text-shadow: 3px 3px 0px #000,
-               -2px -2px 0px #000,
-               2px 2px 0px #000,
-               -2px 2px 0px #000;
+  color: #ffffff;
+  text-shadow: 3px 3px 0px #f97676,
+               -2px -2px 0px #ff7575,
+               2px 2px 0px #ff7272,
+               -2px 2px 0px #ff8989;
   margin-bottom: 30px;
 }
 
@@ -228,8 +228,8 @@ h2 {font-size: 36px; margin-bottom: 30px; color: #ff3c3c;}
   display: inline-block;
   margin: 0 15px 20px;
   padding: 10px 15px;
-  background: #ffcc00;   /* Amarillo */
-  color: #ebeb0c;
+  background: #ff9898;
+  color: #fff9db;
   font-weight: bold;
   text-align: center;
   border-radius: 8px;
@@ -237,11 +237,11 @@ h2 {font-size: 36px; margin-bottom: 30px; color: #ff3c3c;}
 }
 
 .order-btn:hover {
-  background: #ffdb4d;   /* Amarillo más claro */
+  background: #ffe6ca;
   transform: scale(1.05);
 }
 /* Promociones */
-.promo-items {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
+.promo-items {display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;}
 .promo-card {
   background: white; border-radius: 15px; overflow: hidden;
   width: 300px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);
